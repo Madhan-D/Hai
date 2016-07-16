@@ -4,7 +4,7 @@
  */
 package mech;
 
-import com.sun.xml.internal.ws.encoding.soap.SOAP12Constants;
+
 import java.util.Scanner;
 
 /**
@@ -15,7 +15,7 @@ public class fon {static int n;
 
    public  static void main (String[]args)
    {
-       int f=1; 
+       int f=1,n; 
        Scanner s = new Scanner (System.in);
       System.out.println("enter no.");
        n=s.nextInt();
@@ -24,15 +24,13 @@ public class fon {static int n;
        {
        f*=i;
        }
+       if(n>0)
        System.out.println(f);
-       System.out.println(we);
-       
-       main();
-   }static int we=3;
-   public  static void main()
-   {
-   
-       System.out.println(we);
+       else
+           System.out.println("invalid number");
    }
+       
+       
+   
 }
            

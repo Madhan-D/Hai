@@ -2,7 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignment;
+ /*moves each letters in the string back to nth position... nth position is the position of the last letter in the alphabet series*/
+package codingletters;
 
 import java.util.Scanner;
 

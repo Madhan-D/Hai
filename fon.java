@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Student
  */
-public class fon {static int n; 
+public class fon {
 
    public  static void main (String[]args)
    {

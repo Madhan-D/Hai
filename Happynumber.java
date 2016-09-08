@@ -20,7 +20,8 @@ Scanner s= new Scanner(System.in);
 
 
 int n=s.nextInt();
-if(hpy(n)==1)
+int a=hpy(n);
+if(a==1||a==7)
                 System.out.println("happy");
 else
                 System.out.println("not happy");
